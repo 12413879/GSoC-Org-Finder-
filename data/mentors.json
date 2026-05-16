@@ -965,9 +965,11 @@
   "org": "INCF",
   "ideasUrl": "https://www.incf.org/incf-gsoc-2026-projects",
   "channels": [
-    "Neurostars forum",
-    "gsoc@incf.org"
-  ],
+  {
+    "name": "Neurostars",
+    "url": "https://neurostars.org/"
+  }
+],
   "mentors": [
     {
       "name": "",
@@ -983,21 +985,15 @@
       "name": "",
       "github": "PRIYANSHU2026",
       "githubUrl": "https://github.com/PRIYANSHU2026"
-    },
-    {
-      "name": "",
-      "github": "azhao915_work",
-      "githubUrl": "https://github.com/azhao915_work"
-    },
-    {
-      "name": "",
-      "github": "Komal_kb",
-      "githubUrl": "https://github.com/Komal_kb"
     }
+   
   ],
   "mailingLists": [
-    "gsoc@incf.org"
-  ],
+  {
+    "name": "INCF GSoC",
+    "email": "gsoc@incf.org"
+  }
+],
   "tip": "Use Neurostars forum and email for mentor communication.",
   "status": "ok",
   "lastFetched": "2026-05-16T00:00:00.000Z"
